@@ -1,12 +1,14 @@
+import AgendamentoScreen from '@/components/AgendamentoScreen';
+import { CardHomePage } from '@/components/CardHomePage';
+import { HeaderHomePage } from '@/components/HeaderHomePage';
+import Login  from '@/components/Login';
 import { View } from 'react-native';
-import { HeaderHomePage } from '@/components/homepage/HeaderHomePage';
-import { BlockCard } from '@/components/homepage/BlockCard';
 
 export default function HomeScreen() {
   return (
-    <View style={{flex:1}}>
+    <View style={{flex:1, backgroundColor: "#FFEEF2"}}>
       <HeaderHomePage/>
-      <BlockCard/>
+      <Login/>
     </View>
   );
 }
